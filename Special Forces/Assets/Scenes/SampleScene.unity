@@ -8688,8 +8688,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6a77ed1751fe047a5bf5460d93871f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
   direction: {x: 0, y: 0}
+  speed: 500
+  health: 100
   flashMaterial: {fileID: 2100000, guid: db702f674fb63db4d99e2ef8bd2a1fe1, type: 2}
 --- !u!50 &1989014044
 Rigidbody2D:
