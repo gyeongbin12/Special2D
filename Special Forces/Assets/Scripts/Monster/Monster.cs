@@ -27,6 +27,8 @@ public abstract class Monster : MonoBehaviour
     [SerializeField] protected float health;
     [SerializeField] protected float speed = 100f;
 
+    [SerializeField] Sound sound = new Sound();
+
     protected virtual void Start()
     {
         initSpeed = speed;
@@ -39,22 +41,21 @@ public abstract class Monster : MonoBehaviour
 
     protected virtual void Update()
     {
-        direction =  (Vector2)characterPosition.position - (Vector2)transform.position ;
+        direction = (Vector2)characterPosition.position - (Vector2)transform.position;
     }
 
     protected virtual void FixedUpdate()
-    {
+    {   
         switch(state)
         {
-            case STATE.WALK: Move();
+            case STATE.WALK : Move();
                 break;
-            case STATE.ATTACK: Attack();
+            case STATE.ATTACK : Attack();
                 break;
-            case STATE.HIT:
+            case STATE.HIT :  
                 break;
-            case STATE.DIE: Death();
+            case STATE.DIE : Death(); 
                 break;
-
         }
     }
 
@@ -78,15 +79,18 @@ public abstract class Monster : MonoBehaviour
     {
         characterPosition.GetComponent<Character>().OnHit(attack);
     }
+
     public IEnumerator OnHit(float damage)
     {
         state = STATE.HIT;
 
         rigidbody2D.velocity = Vector2.zero;
 
+        AudioManager.instance.Sound(sound.audioClip[0]);
+
         rigidbody2D.AddForce(-direction * power, ForceMode2D.Force);
 
-        yield return new WaitForSeconds(1);
+        yield return CoroutineCache.waitForSeconds(0.25f);
 
         state = STATE.WALK;
     }
@@ -97,7 +101,7 @@ public abstract class Monster : MonoBehaviour
 
     protected void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Character"))
+        if(collision.CompareTag("Character"))
         {
             state = STATE.ATTACK;
         }
@@ -105,7 +109,7 @@ public abstract class Monster : MonoBehaviour
 
     protected void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.CompareTag("Character"))
+        if (collision.CompareTag("Character"))
         {
             state = STATE.WALK;
         }

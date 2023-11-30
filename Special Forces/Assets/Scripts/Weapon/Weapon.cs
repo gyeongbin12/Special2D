@@ -13,7 +13,7 @@ public abstract class Weapon : MonoBehaviour
     {
         Monster monster = collision.GetComponent<Monster>();
 
-        if (monster != null)
+        if(monster != null)
         {
             StartCoroutine(monster.OnHit(attack));
         }

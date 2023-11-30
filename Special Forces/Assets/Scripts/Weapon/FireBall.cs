@@ -16,7 +16,7 @@ public class FireBall : Weapon
     {
         transform.localPosition = new Vector3
         (
-            Mathf.Cos(Time.time * speed) * offset,
+            Mathf.Cos(Time.time * speed) * offset, 
             Mathf.Sin(Time.time * speed) * offset,
             0
         );

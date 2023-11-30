@@ -1,15 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
+using UnityEditor;
 using UnityEngine;
 
 public class BinarySearch : MonoBehaviour
 {
     [SerializeField] int n;
     [SerializeField] List<int> array;
-    void Start()
+
+    void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Find(array, n);
         }
@@ -20,7 +22,7 @@ public class BinarySearch : MonoBehaviour
         int left = 0;
         int right = array.Count - 1;
 
-        while(left <= right) 
+        while(left <= right)
         {
             // 1. 배열의 가운데 요소의 인덱스를 pivot으로 설정합니다.
             int pivot = (left + right) / 2;
@@ -40,6 +42,8 @@ public class BinarySearch : MonoBehaviour
                 left = pivot + 1;
             }
         }
+
         Debug.Log("값을 찾지 못했습니다.");
     }
+
 }

@@ -21,11 +21,9 @@ public class Character : MonoBehaviour
     [SerializeField] Material flashMaterial;
     [SerializeField] List<Weapon> weaponList;
 
-    private WaitForSeconds waitForSeconds = new WaitForSeconds(0.125f);
-
     void Start()
     {
-        animator = GetComponent<Animator>();    
+        animator = GetComponent<Animator>();
         rigidbody2D = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -54,15 +52,15 @@ public class Character : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            if (weaponCount == weaponList.Count - 1)
+            if (weaponCount >= weaponList.Count)
             {
                 weaponCount = 0;
             }
 
-            weapon = weaponList[++weaponCount];
+            weapon = weaponList[weaponCount++];
 
             weapon.Attack();
-        }        
+        }
     }
 
     public void OnHit(float damage)
@@ -71,9 +69,9 @@ public class Character : MonoBehaviour
 
         StartCoroutine(Flash());
 
-        if (health < 0 ) 
+        if (health <= 0)
         {
-            Debug.Log("Death");
+            animator.Play("Die");
         }
     }
 
@@ -113,7 +111,7 @@ public class Character : MonoBehaviour
     {
         spriteRenderer.material = flashMaterial;
 
-        yield return waitForSeconds;
+        yield return CoroutineCache.waitForSeconds(0.125f);
 
         spriteRenderer.material = originMaterial;
     }

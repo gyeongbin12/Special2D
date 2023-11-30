@@ -7,11 +7,10 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] int rand;
 
     [SerializeField] Factory factory;
-
+ 
     [SerializeField] List<Monster> monsterList;
-    private readonly WaitForSeconds waitForSeconds = new WaitForSeconds(3);
 
-    private void Start()
+    private void Awake()
     {
         monsterList.Capacity = 10;
 
@@ -20,9 +19,9 @@ public class SpawnManager : MonoBehaviour
 
     public IEnumerator Spawn()
     {
-        while(true)
+        while (true)
         {
-            yield return waitForSeconds;
+            yield return CoroutineCache.waitForSeconds(5f);
 
             rand = Random.Range(0, monsterList.Count);
 
