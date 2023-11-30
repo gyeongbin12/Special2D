@@ -7486,7 +7486,7 @@ Transform:
   m_GameObject: {fileID: 884280301}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.3379855, y: 0.25088528, z: -0.064383455}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7629,6 +7629,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1491721519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1491721520}
+  m_Layer: 0
+  m_Name: Factory Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1491721520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491721519}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1528076982
 GameObject:
   m_ObjectHideFlags: 0
@@ -8515,12 +8546,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3f2f42be7ca4fa4b848d32dd91e81b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monsterPrefab: {fileID: 1955852237619703182, guid: 50c0c412983ec8f4d859f63628121880, type: 3}
-  spawnPosition:
-  - {fileID: 1956356664}
-  - {fileID: 614319982}
-  - {fileID: 759949721}
-  - {fileID: 111259908}
+  rand: 0
+  factory: {fileID: 0}
+  monsterList:
+  - {fileID: 1955852237619703182, guid: 50c0c412983ec8f4d859f63628121880, type: 3}
+  - {fileID: 6941518561820012592, guid: af3f7c44dc73cd24fa8ad9592e9f293f, type: 3}
 --- !u!4 &1911681659
 Transform:
   m_ObjectHideFlags: 0
@@ -8843,3 +8873,4 @@ SceneRoots:
   - {fileID: 988628863}
   - {fileID: 1911681659}
   - {fileID: 884280303}
+  - {fileID: 1491721520}

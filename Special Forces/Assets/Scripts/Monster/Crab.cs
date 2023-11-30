@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bat : Monster
+public class Crab : Monster
 {
     protected override void Attack()
     {
         speed = 0;
-        attack = 10f;
+        attack = 15f;
+        health = 100f;
 
         animator.SetBool("Attack", true);
     }
