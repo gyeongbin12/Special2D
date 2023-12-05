@@ -1,105 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/tonuy/Desktop/Special-Forces-main/Special Forces/Packages/manifest.json
+    m_FilePath: C:/Users/tonuy/Desktop/Special2D/Special Forces/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638373649330640686
-    m_Hash: 2235003881
+      ticks: 638370316180000000
+    m_Hash: 991173794
   m_LockFileStatus:
-    m_FilePath: C:/Users/tonuy/Desktop/Special-Forces-main/Special Forces/Packages/packages-lock.json
+    m_FilePath: C:/Users/tonuy/Desktop/Special2D/Special Forces/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638373650006093365
-    m_Hash: 2277019201
+      ticks: 638370316180000000
+    m_Hash: 117382447
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/tonuy/Desktop/Special-Forces-main/Special Forces/Packages
-m_EditorVersion: 2022.3.9f1 (ea401c316338)
+m_ProjectPath: C:/Users/tonuy/Desktop/Special2D/Special Forces/Packages
+m_EditorVersion: 2021.3.14f1 (eee1884e7226)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@1.1.4
+- packageId: com.unity.cinemachine@2.8.9
   testable: 0
   isDirectDependency: 1
-  version: 1.1.4
+  version: 2.8.9
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.ai.navigation@1.1.4
-  assetPath: Packages/com.unity.ai.navigation
-  name: com.unity.ai.navigation
-  displayName: AI Navigation
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: High-level NavMesh components for building and using NavMeshes at
-    runtime and at edit time.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-exp.1
-    - 1.0.0-exp.2
-    - 1.0.0-exp.3
-    - 1.0.0-exp.4
-    - 1.1.0-pre.1
-    - 1.1.0-pre.2
-    - 1.1.1
-    - 1.1.3
-    - 1.1.4
-    - 1.1.5
-    - 2.0.0-pre.3
-    - 2.0.0-pre.4
-    - 2.0.0
-    compatible:
-    - 1.1.4
-    - 1.1.5
-    recommended: 1.1.5
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.ai
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.ai
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638224218100000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 3e8d494400ccac6cbd90ee1b474470f4b1299bfa
-    path: 
-  unityLifecycle:
-    version: 1.1.4
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.cinemachine@2.9.5
-  testable: 0
-  isDirectDependency: 1
-  version: 2.9.5
-  source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.cinemachine@2.9.5
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.cinemachine@2.8.9
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -191,23 +119,21 @@ m_ResolvedPackages:
     - 3.0.0-pre.8
     - 3.0.0-pre.9
     compatible:
+    - 2.8.9
+    - 2.9.0-pre.1
+    - 2.9.0-pre.6
+    - 2.9.1
+    - 2.9.2
+    - 2.9.4
     - 2.9.5
     - 2.9.7
-    - 3.0.0-pre.3
-    - 3.0.0-pre.4
-    - 3.0.0-pre.5
-    - 3.0.0-pre.6
-    - 3.0.0-pre.7
-    - 3.0.0-pre.8
-    - 3.0.0-pre.9
-    recommended: 2.9.7
-    deprecated: []
+    verified: 2.8.9
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.1.31
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -245,30 +171,25 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638102365180000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/index.html
+  datePublishedTicks: 637975495930000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: 4b4405b9505ecfa1cb2d2b03df8f3309c12f3b0d
+    revision: 92bcde243d623d77c64960a552f29396770af1e1
     path: 
   unityLifecycle:
-    version: 2.9.5
+    version: 2.8.9
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.0.7
+- packageId: com.unity.collab-proxy@1.17.6
   testable: 0
   isDirectDependency: 1
-  version: 2.0.7
+  version: 1.17.6
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.collab-proxy@2.0.7
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.collab-proxy@1.17.6
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -277,10 +198,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: assets
-  description: The package gives you the ability to use Unity Version Control in
-    the Unity editor. To use Unity Version Control, a subscription is required. Learn
-    more about how you can get started for free by visiting plasticscm.com.
+  type: asset
+  description: The Version Control package gives you the ability to use either Collaborate
+    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
+    (beta), a Plastic SCM subscription is required. Learn more about how you can
+    get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -356,16 +278,39 @@ m_ResolvedPackages:
     - 2.1.0
     - 2.2.0
     compatible:
+    - 1.17.6
+    - 1.17.7
+    - 2.0.0-preview.6
+    - 2.0.0-preview.8
+    - 2.0.0-preview.15
+    - 2.0.0-preview.17
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
     - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     - 2.1.0
     - 2.2.0
-    recommended: 2.0.7
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
+    verified: 1.17.7
+  dependencies:
+  - name: com.unity.services.core
+    version: 1.0.1
+  resolvedDependencies:
+  - name: com.unity.services.core
+    version: 1.6.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
   keywords:
   - backup
   - cloud
@@ -373,7 +318,6 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
-  - devops
   - plastic
   - plasticscm
   - source
@@ -389,30 +333,25 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638264754080000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
+  datePublishedTicks: 638009928240000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 13a0e74f47307a1b20a57747cea59891ce36a647
+    revision: 3744f24b80468ef1336fbc234c93625c4a6287b0
     path: 
   unityLifecycle:
-    version: 2.0.7
+    version: 1.17.6
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.feature.2d@2.0.0
+- packageId: com.unity.feature.2d@1.0.0
   testable: 0
   isDirectDependency: 1
-  version: 2.0.0
+  version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.feature.2d@2.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.feature.2d@1.0.0
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -431,11 +370,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.0.0
+    - 1.0.0
     compatible:
-    - 2.0.0
-    recommended: 2.0.0
-    deprecated: []
+    - 1.0.0
+    verified: 1.0.0
   dependencies:
   - name: com.unity.2d.animation
     version: default
@@ -451,13 +389,11 @@ m_ResolvedPackages:
     version: default
   - name: com.unity.2d.tilemap.extras
     version: default
-  - name: com.unity.2d.aseprite
-    version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 9.0.3
+    version: 7.0.8
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 6.0.5
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -470,33 +406,29 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.animation
+  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.8
-  - name: com.unity.collections
-    version: 1.2.4
-  - name: com.unity.test-framework
-    version: 1.1.33
-  - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 1.6.6
+  - name: com.unity.modules.animation
+    version: 1.0.0
   - name: com.unity.2d.pixel-perfect
-    version: 5.0.3
+    version: 5.0.1
   - name: com.unity.2d.psdimporter
-    version: 8.0.2
+    version: 6.0.6
   - name: com.unity.2d.spriteshape
-    version: 9.0.2
+    version: 7.0.6
+  - name: com.unity.2d.path
+    version: 5.0.2
   - name: com.unity.modules.physics2d
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
+  - name: com.unity.2d.tilemap.extras
+    version: 2.2.3
   - name: com.unity.modules.tilemap
     version: 1.0.0
-  - name: com.unity.2d.tilemap.extras
-    version: 3.1.1
   - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.2d.aseprite
     version: 1.0.0
   keywords: []
   registry:
@@ -507,7 +439,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -518,19 +450,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 2.0.0
+    version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.24
+- packageId: com.unity.ide.rider@3.0.16
   testable: 0
   isDirectDependency: 1
-  version: 3.0.24
+  version: 3.0.16
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.ide.rider@3.0.24
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.ide.rider@3.0.16
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -539,7 +466,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: asset
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -588,11 +515,16 @@ m_ResolvedPackages:
     - 3.0.25
     - 3.0.26
     compatible:
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 3.0.20
+    - 3.0.21
+    - 3.0.22
     - 3.0.24
     - 3.0.25
     - 3.0.26
-    recommended: 3.0.26
-    deprecated: []
+    verified: 3.0.26
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -608,30 +540,25 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638221653400000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
+  datePublishedTicks: 638011833630000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: f5decc642e3618ce1c6827d47318260e61d64714
+    revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
     path: 
   unityLifecycle:
-    version: 3.0.24
+    version: 3.0.16
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.18
+- packageId: com.unity.ide.visualstudio@2.0.16
   testable: 0
   isDirectDependency: 1
-  version: 2.0.18
+  version: 2.0.16
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -673,18 +600,19 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     compatible:
+    - 2.0.16
+    - 2.0.17
     - 2.0.18
     - 2.0.20
     - 2.0.21
     - 2.0.22
-    recommended: 2.0.22
-    deprecated: []
+    verified: 2.0.22
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.1.31
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -700,30 +628,25 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638173205920000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
+  datePublishedTicks: 637914298680000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
+    revision: c01855ef6461b821ab0226135e96a4ee86de96be
     path: 
   unityLifecycle:
-    version: 2.0.18
+    version: 2.0.16
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -755,8 +678,7 @@ m_ResolvedPackages:
     - 1.2.5
     compatible:
     - 1.2.5
-    recommended: 1.2.5
-    deprecated: []
+    verified: 1.2.5
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -768,7 +690,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637800255360000000
   documentationUrl: 
@@ -781,17 +703,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.test-framework@1.1.33
+- packageId: com.unity.test-framework@1.1.31
   testable: 0
   isDirectDependency: 1
-  version: 1.1.33
+  version: 1.1.31
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -856,6 +773,7 @@ m_ResolvedPackages:
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
+    - 1.1.31
     - 1.1.33
     - 1.3.0
     - 1.3.1
@@ -872,8 +790,7 @@ m_ResolvedPackages:
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    recommended: 1.1.33
-    deprecated: []
+    verified: 1.1.33
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -899,30 +816,25 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637938212700000000
+  datePublishedTicks: 637804266210000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
+    revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
     path: 
   unityLifecycle:
-    version: 1.1.33
+    version: 1.1.31
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1052,10 +964,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.4
     - 3.2.0-pre.5
     - 3.2.0-pre.6
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    recommended: 3.0.6
-    deprecated: []
+    verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1080,7 +989,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -1093,17 +1002,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.timeline@1.7.5
+- packageId: com.unity.timeline@1.6.4
   testable: 0
   isDirectDependency: 1
-  version: 1.7.5
+  version: 1.6.4
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.timeline@1.7.5
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.timeline@1.6.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1112,7 +1016,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: asset
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 0
@@ -1205,6 +1109,15 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     compatible:
+    - 1.6.4
+    - 1.6.5
+    - 1.7.0-pre.1
+    - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
     - 1.7.5
     - 1.7.6
     - 1.8.0
@@ -1214,8 +1127,7 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.5
     - 1.8.6
-    recommended: 1.7.6
-    deprecated: []
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1248,30 +1160,25 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638229649600000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
+  datePublishedTicks: 637789039180000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: fdb1ca9a2c2a131e0ff9cb257b2eae3b53337b3a
+    revision: d7e1eb6805737974459309b7d6e7db58635dd167
     path: 
   unityLifecycle:
-    version: 1.7.5
+    version: 1.6.4
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1294,8 +1201,7 @@ m_ResolvedPackages:
     - 3.0.0-exp.3
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -1332,17 +1238,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.visualscripting@1.9.0
+- packageId: com.unity.visualscripting@1.7.8
   testable: 0
   isDirectDependency: 1
-  version: 1.9.0
+  version: 1.7.8
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.visualscripting@1.9.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.visualscripting@1.7.8
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1388,11 +1289,11 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.9.1
     compatible:
+    - 1.7.8
+    - 1.8.0
     - 1.9.0
     - 1.9.1
-    recommended: 1.9.1
-    deprecated:
-    - 1.8.0-pre.1
+    verified: 1.7.8
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1418,28 +1319,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638267547090000000
+  datePublishedTicks: 637878097330000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 21b38599b7fcf9bdccd964bdb90710e6a1094810
+    revision: 775a560e6602f51ff05aca02264f8bed4d415fd3
     path: 
   unityLifecycle:
-    version: 1.9.0
+    version: 1.7.8
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1458,8 +1354,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1484,17 +1379,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1512,8 +1402,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1538,17 +1427,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1567,8 +1451,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1593,17 +1476,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1622,8 +1500,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1648,17 +1525,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1677,8 +1549,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1703,17 +1574,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1732,8 +1598,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1762,17 +1627,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1791,8 +1651,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -1825,17 +1684,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1855,8 +1709,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1881,17 +1734,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1910,8 +1758,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1936,17 +1783,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1965,8 +1807,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1991,17 +1832,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2020,8 +1856,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2046,17 +1881,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2075,8 +1905,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2101,17 +1930,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2130,8 +1954,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2156,17 +1979,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2185,8 +2003,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.imageconversion
     version: 1.0.0
@@ -2215,17 +2032,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2244,8 +2056,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2270,17 +2081,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2299,8 +2105,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2333,17 +2138,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2361,8 +2161,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -2391,17 +2190,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2420,8 +2214,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2446,17 +2239,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2475,8 +2263,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -2484,12 +2271,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   keywords: []
   registry:
@@ -2513,17 +2304,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2542,8 +2328,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2568,17 +2353,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2597,8 +2377,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2631,17 +2410,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2660,8 +2434,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2686,17 +2459,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2715,8 +2483,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.assetbundle
     version: 1.0.0
@@ -2749,17 +2516,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2778,8 +2540,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2812,17 +2573,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2841,8 +2597,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2875,17 +2630,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2904,8 +2654,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2954,17 +2703,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2983,8 +2727,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3013,17 +2756,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3042,8 +2780,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -3080,17 +2817,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3109,8 +2841,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3149,17 +2880,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3178,8 +2904,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3204,17 +2929,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3233,8 +2953,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3271,17 +2990,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3300,8 +3014,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3330,17 +3043,72 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
+- packageId: com.unity.modules.uielementsnative@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  assetPath: Packages/com.unity.modules.uielementsnative
+  name: com.unity.modules.uielementsnative
+  displayName: UIElements Native
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3372,8 +3140,7 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.4
     - 2.0.5
-    recommended: 1.0.6
-    deprecated: []
+    verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3388,7 +3155,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -3401,17 +3168,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.2d.animation@9.0.3
+- packageId: com.unity.2d.animation@7.0.8
   testable: 0
   isDirectDependency: 0
-  version: 9.0.3
+  version: 7.0.8
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.2d.animation@9.0.3
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.2d.animation@7.0.8
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -3545,24 +3307,24 @@ m_ResolvedPackages:
     - 10.0.2
     - 10.0.3
     compatible:
-    - 9.0.3
-    - 9.0.4
-    recommended: 9.0.4
-    deprecated: []
+    - 7.0.8
+    - 7.0.9
+    - 7.0.10
+    - 7.0.11
+    - 7.0.12
+    verified: 7.0.12
   dependencies:
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 6.0.5
   - name: com.unity.2d.sprite
     version: 1.0.0
-  - name: com.unity.collections
-    version: 1.1.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 6.0.5
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -3575,16 +3337,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.animation
+  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.8
-  - name: com.unity.collections
-    version: 1.2.4
-  - name: com.unity.test-framework
-    version: 1.1.33
-  - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 1.6.6
+  - name: com.unity.modules.animation
+    version: 1.0.0
   keywords:
   - 2d
   - animation
@@ -3596,30 +3354,25 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638191394980000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@9.0/manual/index.html
+  datePublishedTicks: 637989323200000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 7d8e0c5910334b5bcf7795fe32bcde0a11d57109
+    revision: d1ad42baef5a9bf44369c855eb89f86d6cd3c744
     path: 
   unityLifecycle:
-    version: 9.0.3
+    version: 7.0.8
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.2d.pixel-perfect@5.0.3
+- packageId: com.unity.2d.pixel-perfect@5.0.1
   testable: 0
   isDirectDependency: 0
-  version: 5.0.3
+  version: 5.0.1
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.1
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -3661,9 +3414,10 @@ m_ResolvedPackages:
     - 5.0.2
     - 5.0.3
     compatible:
+    - 5.0.1
+    - 5.0.2
     - 5.0.3
-    recommended: 5.0.3
-    deprecated: []
+    verified: 5.0.3
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3681,28 +3435,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638023910590000000
+  datePublishedTicks: 637637493430000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 6dea8ac5bd6953acd64f1ac9d470912954b0c015
+    revision: 404f29a83b5666c45c2386a031f1f653fc6fd00d
     path: 
   unityLifecycle:
-    version: 5.0.3
+    version: 5.0.1
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.2d.psdimporter@8.0.2
+- packageId: com.unity.2d.psdimporter@6.0.6
   testable: 0
   isDirectDependency: 0
-  version: 8.0.2
+  version: 6.0.6
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.2d.psdimporter@8.0.2
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.2d.psdimporter@6.0.6
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -3792,21 +3541,21 @@ m_ResolvedPackages:
     - 9.0.0
     - 9.0.1
     compatible:
-    - 8.0.2
-    recommended: 8.0.2
-    deprecated: []
+    - 6.0.6
+    - 6.0.7
+    verified: 6.0.7
   dependencies:
   - name: com.unity.2d.animation
-    version: 9.0.1
+    version: 7.0.8
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 6.0.5
   - name: com.unity.2d.sprite
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 9.0.3
+    version: 7.0.8
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 6.0.5
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -3819,16 +3568,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.animation
+  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.8
-  - name: com.unity.collections
-    version: 1.2.4
-  - name: com.unity.test-framework
-    version: 1.1.33
-  - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 1.6.6
+  - name: com.unity.modules.animation
+    version: 1.0.0
   keywords:
   - 2d
   - psdimporter
@@ -3841,30 +3586,25 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638067518780000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@8.0/manual/index.html
+  datePublishedTicks: 637989323240000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: fc4212736e8bcb753039f1a18964b98d929e4093
+    revision: d1ad42baef5a9bf44369c855eb89f86d6cd3c744
     path: 
   unityLifecycle:
-    version: 8.0.2
+    version: 6.0.6
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -3883,8 +3623,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3912,17 +3651,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.2d.spriteshape@9.0.2
+- packageId: com.unity.2d.spriteshape@7.0.6
   testable: 0
   isDirectDependency: 0
-  version: 9.0.2
+  version: 7.0.6
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.2d.spriteshape@9.0.2
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.2d.spriteshape@7.0.6
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -4022,21 +3756,23 @@ m_ResolvedPackages:
     - 10.0.1
     - 10.0.2
     compatible:
-    - 9.0.2
-    recommended: 9.0.2
-    deprecated: []
+    - 7.0.6
+    - 7.0.7
+    verified: 7.0.7
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 6.0.4
+  - name: com.unity.2d.path
+    version: 5.0.2
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 6.0.5
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -4047,10 +3783,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.animation
+  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.8
+    version: 1.6.6
+  - name: com.unity.2d.path
+    version: 5.0.2
   - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords:
@@ -4068,30 +3806,25 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638150103540000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@9.0/manual/index.html
+  datePublishedTicks: 637958913420000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: ff926a6d093212af31bc3c835f61abfbb1b3f163
+    revision: 6b783c5dfb5a72d73e2b0a70d1caf4a367c58805
     path: 
   unityLifecycle:
-    version: 9.0.2
+    version: 7.0.6
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.2d.tilemap@1.0.0
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -4110,26 +3843,9 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.tilemap
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.tilemap
-    version: 1.0.0
-  - name: com.unity.modules.physics2d
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
+    verified: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - 2d
   - Tilemap
@@ -4154,17 +3870,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.2d.tilemap.extras@3.1.1
+- packageId: com.unity.2d.tilemap.extras@2.2.3
   testable: 0
   isDirectDependency: 0
-  version: 3.1.1
+  version: 2.2.3
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.2d.tilemap.extras@3.1.1
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.2d.tilemap.extras@2.2.3
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -4173,7 +3884,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: asset
   description: '2D Tilemap Extras is a package that contains extra scripts for use
     with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
     the Tilemap feature.
@@ -4230,10 +3941,12 @@ m_ResolvedPackages:
     - 4.0.1
     - 4.0.2
     compatible:
-    - 3.1.1
-    - 3.1.2
-    recommended: 3.1.2
-    deprecated: []
+    - 2.2.3
+    - 2.2.4
+    - 2.2.5
+    - 2.2.6
+    - 2.2.7
+    verified: 2.2.7
   dependencies:
   - name: com.unity.modules.tilemap
     version: 1.0.0
@@ -4250,15 +3963,13 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
-  - name: com.unity.modules.uielements
+  - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.ugui
     version: 1.0.0
   keywords:
   - 2d
@@ -4270,92 +3981,62 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638234725240000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@3.1/manual/index.html
+  datePublishedTicks: 637892785880000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: 04abca0a975bb264c1f7530288b4ddfa2f4c45ea
+    revision: 23a879f6458e28d4082f486e6c2375ef4c281145
     path: 
   unityLifecycle:
-    version: 3.1.1
+    version: 2.2.3
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.2d.aseprite@1.0.0
+- packageId: com.unity.services.core@1.6.0
   testable: 0
   isDirectDependency: 0
-  version: 1.0.0
+  version: 1.6.0
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.2d.aseprite@1.0.0
-  assetPath: Packages/com.unity.2d.aseprite
-  name: com.unity.2d.aseprite
-  displayName: 2D Aseprite Importer
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.services.core@1.6.0
+  assetPath: Packages/com.unity.services.core
+  name: com.unity.services.core
+  displayName: Services Core
   author:
     name: 
     email: 
     url: 
-  category: 2D
-  type: asset
-  description: 2D Aseprite Importer is a package which enables the import of .aseprite
-    files from the Pixel Art tool Aseprite.
+  category: 
+  type: 
+  description: 'This package defines common components used by multiple Game Service
+    packages.
+
+    These are standardized and aim to unify the overall experience
+    of working with Game Services SDK.'
   status: 0
   errors: []
   versions:
     all:
-    - 1.0.0-pre.1
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
-    - 1.0.0-pre.4
-    - 1.0.0
-    - 1.0.1
-    - 1.1.0
+    - 1.6.0
     compatible:
-    - 1.0.0
-    - 1.0.1
-    - 1.1.0
-    recommended: 1.0.1
-    deprecated: []
+    - 1.6.0
+    verified: 1.6.0
   dependencies:
-  - name: com.unity.2d.sprite
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
-  - name: com.unity.2d.common
-    version: 6.0.6
-  - name: com.unity.mathematics
-    version: 1.2.6
-  - name: com.unity.modules.animation
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.2d.sprite
+  - name: com.unity.modules.unitywebrequest
     version: 1.0.0
-  - name: com.unity.2d.common
-    version: 8.0.1
-  - name: com.unity.mathematics
-    version: 1.2.6
-  - name: com.unity.modules.uielements
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  - name: com.unity.modules.androidjni
     version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.burst
-    version: 1.8.8
-  keywords:
-  - 2d
-  - Aseprite
-  - Pixel
-  - Art
-  - assetimporter
+  keywords: []
   registry:
     id: main
     name: 
@@ -4366,28 +4047,91 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638203510100000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.0/manual/index.html
+  datePublishedTicks: 0
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
-    revision: 419b070b489a77cf611d9d4ebff29eed4ef0bea7
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 815a0c96703c69956fde4fc798e35dd8d0cc3af1
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 1.6.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.2d.common@8.0.1
+- packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
-  version: 8.0.1
+  version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.2d.common@8.0.1
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.mathematics@1.2.6
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    compatible:
+    - 1.2.6
+    - 1.3.1
+    verified: 1.2.6
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637841876140000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: f110c8c230d253654afed153569030a587cc7557
+    path: 
+  unityLifecycle:
+    version: 1.2.6
+    nextVersion: 
+- packageId: com.unity.2d.common@6.0.5
+  testable: 0
+  isDirectDependency: 0
+  version: 6.0.5
+  source: 1
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.2d.common@6.0.5
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -4454,9 +4198,9 @@ m_ResolvedPackages:
     - 9.0.1
     - 9.0.2
     compatible:
-    - 8.0.1
-    recommended: 8.0.1
-    deprecated: []
+    - 6.0.5
+    - 6.0.6
+    verified: 6.0.6
   dependencies:
   - name: com.unity.2d.sprite
     version: 1.0.0
@@ -4464,10 +4208,8 @@ m_ResolvedPackages:
     version: 1.1.0
   - name: com.unity.modules.uielements
     version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
   - name: com.unity.burst
-    version: 1.7.3
+    version: 1.5.1
   resolvedDependencies:
   - name: com.unity.2d.sprite
     version: 1.0.0
@@ -4481,10 +4223,10 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.animation
+  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.8.8
+    version: 1.6.6
   keywords:
   - 2d
   registry:
@@ -4495,72 +4237,49 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638029769550000000
+  datePublishedTicks: 637989323140000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 6fc635d83d4bb0b2640893b8d4a0f3934044aeb5
+    revision: d1ad42baef5a9bf44369c855eb89f86d6cd3c744
     path: 
   unityLifecycle:
-    version: 8.0.1
+    version: 6.0.5
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.mathematics@1.2.6
+- packageId: com.unity.2d.path@5.0.2
   testable: 0
   isDirectDependency: 0
-  version: 1.2.6
+  version: 5.0.2
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.mathematics@1.2.6
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.2d.path@5.0.2
+  assetPath: Packages/com.unity.2d.path
+  name: com.unity.2d.path
+  displayName: 2D Path
   author:
     name: 
     email: 
     url: 
-  category: 
-  type: asset
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
+  category: 2D
+  type: 
+  description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier splines)
+    in EditorWindows and the SceneView."
   status: 0
   errors: []
   versions:
     all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
+    - 5.0.2
     compatible:
-    - 1.2.6
-    - 1.3.1
-    recommended: 1.2.6
-    deprecated: []
+    - 5.0.2
+    verified: 5.0.2
   dependencies: []
   resolvedDependencies: []
   keywords:
-  - unity
+  - 2d
+  - path
   registry:
     id: main
     name: 
@@ -4571,144 +4290,53 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637841876140000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: f110c8c230d253654afed153569030a587cc7557
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 41fd674f8e4b2265bdbc50291dced1bd86c590ee
     path: 
   unityLifecycle:
-    version: 1.2.6
+    version: 5.0.2
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.collections@1.2.4
+- packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
   isDirectDependency: 0
-  version: 1.2.4
+  version: 3.0.2
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.collections@1.2.4
-  assetPath: Packages/com.unity.collections
-  name: com.unity.collections
-  displayName: Collections
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
   author:
     name: 
     email: 
     url: 
   category: 
-  type: asset
-  description: A C# collections library providing data structures that can be used
-    in jobs, and optimized by Burst compiler.
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 13.0.1.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
   status: 0
   errors: []
   versions:
     all:
-    - 0.0.9-preview.1
-    - 0.0.9-preview.2
-    - 0.0.9-preview.3
-    - 0.0.9-preview.4
-    - 0.0.9-preview.5
-    - 0.0.9-preview.6
-    - 0.0.9-preview.7
-    - 0.0.9-preview.8
-    - 0.0.9-preview.9
-    - 0.0.9-preview.10
-    - 0.0.9-preview.11
-    - 0.0.9-preview.12
-    - 0.0.9-preview.13
-    - 0.0.9-preview.14
-    - 0.0.9-preview.15
-    - 0.0.9-preview.16
-    - 0.0.9-preview.17
-    - 0.0.9-preview.18
-    - 0.0.9-preview.19
-    - 0.0.9-preview.20
-    - 0.1.0-preview
-    - 0.1.1-preview
-    - 0.2.0-preview.13
-    - 0.3.0-preview.0
-    - 0.4.0-preview.6
-    - 0.5.0-preview.9
-    - 0.5.1-preview.11
-    - 0.5.2-preview.8
-    - 0.6.0-preview.9
-    - 0.7.0-preview.2
-    - 0.7.1-preview.3
-    - 0.8.0-preview.5
-    - 0.9.0-preview.5
-    - 0.9.0-preview.6
-    - 0.11.0-preview.17
-    - 0.12.0-preview.13
-    - 0.14.0-preview.16
-    - 0.15.0-preview.21
-    - 0.17.0-preview.18
-    - 1.0.0-pre.3
-    - 1.0.0-pre.5
-    - 1.0.0-pre.6
-    - 1.1.0
-    - 1.2.3-pre.1
-    - 1.2.3
-    - 1.2.4
-    - 1.3.1
-    - 1.4.0
-    - 1.5.1
-    - 2.1.0-exp.4
-    - 2.1.0-pre.2
-    - 2.1.0-pre.6
-    - 2.1.0-pre.11
-    - 2.1.0-pre.18
-    - 2.1.1
-    - 2.1.4
-    - 2.2.0
-    - 2.2.1
-    - 2.3.0-exp.1
-    - 2.3.0-pre.3
-    - 2.4.0-exp.2
+    - 3.0.2
     compatible:
-    - 1.2.4
-    - 1.3.1
-    - 1.4.0
-    - 1.5.1
-    - 2.1.0-exp.4
-    - 2.1.0-pre.2
-    - 2.1.0-pre.6
-    - 2.1.0-pre.11
-    - 2.1.0-pre.18
-    - 2.1.1
-    - 2.1.4
-    - 2.2.0
-    - 2.2.1
-    - 2.3.0-exp.1
-    - 2.3.0-pre.3
-    recommended: 1.2.4
-    deprecated: []
-  dependencies:
-  - name: com.unity.burst
-    version: 1.6.6
-  - name: com.unity.test-framework
-    version: 1.1.31
-  resolvedDependencies:
-  - name: com.unity.burst
-    version: 1.8.8
-  - name: com.unity.mathematics
-    version: 1.2.6
-  - name: com.unity.test-framework
-    version: 1.1.33
-  - name: com.unity.ext.nunit
-    version: 1.0.6
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords:
-  - dots
-  - collections
-  - unity
+    - 3.0.2
+    verified: 3.0.2
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
   registry:
     id: main
     name: 
@@ -4719,28 +4347,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637908244640000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/dots.git
-    revision: 32d153034bea0703098263469b88c73619422782
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
     path: 
   unityLifecycle:
-    version: 1.2.4
+    version: 3.0.2
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.burst@1.8.8
+- packageId: com.unity.burst@1.6.6
   testable: 0
   isDirectDependency: 0
-  version: 1.8.8
+  version: 1.6.6
   source: 1
-  resolvedPath: C:\Users\tonuy\Desktop\Special-Forces-main\Special Forces\Library\PackageCache\com.unity.burst@1.8.8
+  resolvedPath: C:\Users\tonuy\Desktop\Special2D\Special Forces\Library\PackageCache\com.unity.burst@1.6.6
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4749,7 +4372,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: asset
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
   status: 0
@@ -4883,12 +4506,26 @@ m_ResolvedPackages:
     - 1.8.10
     - 1.8.11
     compatible:
+    - 1.6.6
+    - 1.7.0-pre.1
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    - 1.8.7
     - 1.8.8
     - 1.8.9
     - 1.8.10
     - 1.8.11
-    recommended: 1.8.11
-    deprecated: []
+    verified: 1.6.6
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
@@ -4904,21 +4541,16 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638271934420000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
+  datePublishedTicks: 637902875830000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: 7673d9a736112fc9d58f32024c19150c2fa6d8ea
+    url: https://github.cds.internal.unity3d.com/unity/burst.git
+    revision: 21ee3d01c6a374f6b01106f9eb6f1b43e113b1a3
     path: 
   unityLifecycle:
-    version: 1.8.8
+    version: 1.6.6
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
