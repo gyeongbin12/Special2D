@@ -9,8 +9,8 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] Factory factory;
  
     [SerializeField] List<Monster> monsterList;
-
-    private void Awake()
+   
+    private void Start()
     {
         monsterList.Capacity = 10;
 
